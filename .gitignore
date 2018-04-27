@@ -1,0 +1,6 @@
+JsonConfig.Core/bin/
+JsonConfig.Core/obj/
+JsonConfig.Demo/bin/
+JsonConfig.Demo/obj/
+packages/
+.vs/JsonConfig/v14/.suo

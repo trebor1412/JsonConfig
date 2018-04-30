@@ -13,9 +13,9 @@ namespace JsonConfig.Core
         private readonly JsonSerializerSettings _jsonSerializerSettings;
         private readonly string _configFileName = "Config.json";
         private readonly string _configNameSuffix = "JsonConfig";
-        private readonly IExecutionContext _executionContext;
+        private readonly IAppPathProvider _executionContext;
 
-        public JsonConfigProvider(IExecutionContext executionContext)
+        public JsonConfigProvider(IAppPathProvider executionContext)
         {
             this._jsonSerializerSettings = new JsonSerializerSettings
             {
@@ -28,7 +28,7 @@ namespace JsonConfig.Core
 
         private string jsonConfigFilePath
         {
-            get { return $"{_executionContext.AppRootPath}{_configFileName}"; }
+            get { return $"{_executionContext.JsonConfigPath}{_configFileName}"; }
         }
 
         private bool hasJsonConfig

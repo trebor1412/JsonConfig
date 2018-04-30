@@ -49,7 +49,7 @@
   <ItemGroup>
     <Compile Include="AutofacConfig.cs" />
     <Compile Include="DemoJsonConfig.cs" />
-    <Compile Include="ExecutionContext.cs" />
+    <Compile Include="AppPathProvider.cs" />
     <Compile Include="JsonConfigModule.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

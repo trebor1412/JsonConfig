@@ -1,7 +1,7 @@
 ﻿namespace JsonConfig.Core
 {
-    public interface IExecutionContext
+    public interface IAppPathProvider
     {
-        string AppRootPath { get; }
+        string JsonConfigPath { get; }
     }
 }

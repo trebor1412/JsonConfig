@@ -9,7 +9,7 @@ namespace JsonConfig.Demo
         {
             var builder = new ContainerBuilder();
 
-            builder.RegisterType<ExecutionContext>()
+            builder.RegisterType<AppPathProvider>()
                    .AsImplementedInterfaces();
             builder.RegisterType<JsonConfigProvider>()
                    .AsImplementedInterfaces();

@@ -28,7 +28,7 @@ Using JSON as a format to organize such kind of structured setting values may he
   },
   "MyAccount": {    
     "Name": "JohnWick",
-    "Code":	"BoogeyMan"
+    "Code": "BoogeyMan"
   },
 }
 ```

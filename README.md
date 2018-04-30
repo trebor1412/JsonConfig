@@ -56,11 +56,11 @@ Then you should create two classes like this:
 
 + For windows service or console application, let the static method return the result of ContainerBuilder.Build() to get the container to resolve classes.
 
-+ For web application, just return void. And use dependency resolver to resolve classes later on.
++ For web application, just return void. And use DependencyResolver to resolve classes later on.
 
 ## Get the config
 
-Use the container or dependency resolver to resolve your JsonConfig class, and that's it.
+Use the container or DependencyResolver to resolve your JsonConfig class, and that's it.
 
 
 
